@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ddd;
+}
+.keys{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+.key{
+    padding: 1rem .5rem;
+    margin: 1rem;
+    transition:all 0.7s;
+    width: 80px;
+    text-align: center;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px #222;
+    border: 3px solid green;
+    border-radius: 5px;
+
+}
+.playing{
+    transform:scale(2);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+.remove{
+    padding: 1rem .5rem;
+    margin: 1rem;
+    transition:all 1.7s;
+    width: 80px;
+    text-align: center;
+    color: aliceblue;
+    background: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 0 5px #222;
+    border: 3px solid green;
+    border-radius: 5px;
+}
